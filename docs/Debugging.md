@@ -1,14 +1,14 @@
 # Debugging
 
-> Debugging - unraveling mysteries in the code abyss.
+> Debugging - unravelling mysteries in the code abyss.
 
-Debugging is the process of finding and fixing errors, bugs, or unexpected behaviors in your JavaScript code. Effective debugging is a crucial skill for any developer. Debugging is one of the first and most essential skills you'll need to master as a JavaScript developer. Throughout this documentation, you'll find yourself writing and working with code extensively. In the world of programming, errors and unexpected behaviors are virtually inevitable companions in your journey.
+Debugging is finding and fixing your JavaScript code's errors, bugs, or unexpected behaviours. Effective debugging is a crucial skill for any developer. Debugging is one of the first and most essential skills you'll need to master as a JavaScript developer. Throughout this documentation, you'll find yourself writing and working with code extensively. In programming, errors and unexpected behaviours are virtually inevitable companions in your journey.
 
-Understanding debugging early on is paramount because it empowers you to tackle these issues effectively. When you write code, whether you're a beginner or an experienced developer, errors can and will occur. These errors might be syntax mistakes, logical flaws, or unexpected outcomes due to unforeseen conditions.
+Understanding debugging early is paramount because it empowers you to tackle these issues effectively. When you write code, whether you're a beginner or an experienced developer, errors can and will occur. These errors might be syntax mistakes, logical flaws, or unexpected outcomes due to unforeseen conditions.
 
 Effective debugging is a crucial skill for any developer. Here's a simple guide to JavaScript debugging:
 
-1. **Using `console.log()`:** One of the simplest and most widely used debugging techniques is inserting `console.log()` statements in your code to print out values and messages. You can use `console.log()` to display the values of variables, track the flow of your code, and check if specific sections of code are being executed.
+1. **Using `console.log()`:** One of the simplest and most widely used debugging techniques is inserting `console.log()` statements in your code to print out values and messages. The `console.log()` function displays variable values, tracks code flow, and checks whether particular code sections are being executed.
 
    ```javascript
    let x = 10;
@@ -34,4 +34,14 @@ Effective debugging is a crucial skill for any developer. Here's a simple guide 
    }
    ```
 
-Effective debugging is a skill that improves with practice. By using these techniques, you can identify and fix problems in your JavaScript code more efficiently, leading to more reliable and robust web applications.
+Effective debugging is a skill that improves with practice. By utilizing these techniques, you can identify and fix problems in your JavaScript code more efficiently, leading to more reliable and robust web applications.
+
+## Further study
+
+Here are some links for further study on the concept of debugging in JavaScript:
+
+1. [MDN Web Docs - Debugging JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/debugger)
+2. [Google Chrome DevTools - Debugging JavaScript](https://developers.google.com/web/tools/chrome-devtools/javascript)
+3. [JavaScript Debugging Tips and Tricks](https://raygun.com/javascript-debugging-tips)
+4. [JavaScript Debugging Techniques](https://www.sitepoint.com/javascript-debugging-techniques/)
+5. [Debugging JavaScript in Visual Studio Code](https://code.visualstudio.com/docs/nodejs/debugging)

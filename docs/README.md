@@ -44,4 +44,14 @@ In this documentation, we'll cover JavaScript from the basics to advanced concep
 
 Are you ready to explore the world of JavaScript and unlock its endless possibilities? Let's begin this exciting journey, one line of code at a time. Whether you're here for fun, career advancement, or a mix of both, JavaScript has something incredible in store for you. Get ready to create, innovate, and shape the future of the web!
 
-!> :construction: JavaScript is to Java as Car is to Carpenter :construction:
+### Further study
+
+Here are some links for further study on the concept of JavaScript:
+
+1. [MDN Web Docs - JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
+2. [W3Schools - JavaScript Tutorial](https://www.w3schools.com/js/)
+3. [JavaScript.info](https://javascript.info/)
+4. [Eloquent JavaScript](https://eloquentjavascript.net/)
+5. [JavaScript Design Patterns](https://addyosmani.com/resources/essentialjsdesignpatterns/book/)
+
+!> :construction: **FUN FACT**: JavaScript is to Java as Car is to Carpenter :construction:
