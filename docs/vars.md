@@ -16,27 +16,27 @@ In JavaScript, the process of creating a variable is called variable declaration
 
 Here's an example of using these keywords:
 
-```JavaScript
+```javascript
 // Using var
 var a = 10;
 if (true) {
-    var a = 20;  // This reassigns the outer 'a'
+  var a = 20; // This reassigns the outer 'a'
 }
-console.log(a);  // Outputs 20
+console.log(a); // Outputs 20
 
 // Using let
 let b = 10;
 if (true) {
-    let b = 20;  // This creates a new 'b' in the block scope
+  let b = 20; // This creates a new 'b' in the block scope
 }
-console.log(b);  // Outputs 10 (the outer 'b' is not affected)
+console.log(b); // Outputs 10 (the outer 'b' is not affected)
 
 // Using const
 const c = 10;
 if (true) {
-    const c = 20;  // This creates a new 'c' in the block scope
+  const c = 20; // This creates a new 'c' in the block scope
 }
-console.log(c);  // Outputs 10 (the outer 'c' is not affected)
+console.log(c); // Outputs 10 (the outer 'c' is not affected)
 ```
 
 !> Avoid using `var` in modern JavaScript, as its behavior can lead to unexpected issues due to its function-scoping and hoisting behavior.

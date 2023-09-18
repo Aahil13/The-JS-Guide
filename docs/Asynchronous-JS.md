@@ -12,17 +12,17 @@ There are key points to know in asynchronous JavaScript which include the follow
    - They are executed once a specific task or operation is completed.
    - Callbacks are commonly used in asynchronous programming to handle results or errors.
 
-   ```JavaScript
+   ```javascript
    function fetchData(url, callback) {
-       // Simulate fetching data from a URL
-       setTimeout(function() {
-           var data = { result: "Some data" };
-           callback(data);
-       }, 1000);
+     // Simulate fetching data from a URL
+     setTimeout(function () {
+       var data = { result: "Some data" };
+       callback(data);
+     }, 1000);
    }
 
-   fetchData("https://example.com/api/data", function(result) {
-       console.log(result); // Process the fetched data
+   fetchData("https://example.com/api/data", function (result) {
+     console.log(result); // Process the fetched data
    });
    ```
 
@@ -32,25 +32,25 @@ There are key points to know in asynchronous JavaScript which include the follow
    - They represent a value that may be available now, or in the future, or never.
    - Promises have three states: pending, resolved (fulfilled), or rejected.
 
-   ```JavaScript
+   ```javascript
    function fetchData(url) {
-       return new Promise(function(resolve, reject) {
-           // Simulate fetching data from a URL
-           setTimeout(function() {
-               var data = { result: "Some data" };
-               resolve(data); // Success
-               // or reject("Error message"); // Error
-           }, 1000);
-       });
+     return new Promise(function (resolve, reject) {
+       // Simulate fetching data from a URL
+       setTimeout(function () {
+         var data = { result: "Some data" };
+         resolve(data); // Success
+         // or reject("Error message"); // Error
+       }, 1000);
+     });
    }
 
    fetchData("https://example.com/api/data")
-       .then(function(result) {
-           console.log(result); // Process the fetched data
-       })
-       .catch(function(error) {
-           console.error(error); // Handle errors
-       });
+     .then(function (result) {
+       console.log(result); // Process the fetched data
+     })
+     .catch(function (error) {
+       console.error(error); // Handle errors
+     });
    ```
 
 3. **Async/Await:**
@@ -59,16 +59,16 @@ There are key points to know in asynchronous JavaScript which include the follow
    - `async` is used to define a function as asynchronous.
    - `await` is used within an `async` function to pause execution until a promise is resolved.
 
-   ```JavaScript
+   ```javascript
    async function fetchData(url) {
-       try {
-           // Simulate fetching data from a URL
-           let response = await fetch(url);
-           let data = await response.json();
-           return data;
-       } catch (error) {
-           console.error(error); // Handle errors
-       }
+     try {
+       // Simulate fetching data from a URL
+       let response = await fetch(url);
+       let data = await response.json();
+       return data;
+     } catch (error) {
+       console.error(error); // Handle errors
+     }
    }
 
    let result = await fetchData("https://example.com/api/data");
@@ -79,48 +79,48 @@ There are key points to know in asynchronous JavaScript which include the follow
 
 1. **HTTP Requests:** Asynchronous programming is commonly used to fetch data from web servers using APIs.
 
-   ```JavaScript
+   ```javascript
    // Using the Fetch API
    fetch("https://jsonplaceholder.typicode.com/posts/1")
-       .then((response) => response.json())
-       .then((data) => {
-           console.log(data);
-       })
-       .catch((error) => {
-           console.error("Error:", error);
-   });
+     .then((response) => response.json())
+     .then((data) => {
+       console.log(data);
+     })
+     .catch((error) => {
+       console.error("Error:", error);
+     });
    ```
 
 2. **Timers and Delays:** You can use timers to execute functions after a specified delay.
 
-   ```JavaScript
+   ```javascript
    console.log("Start");
    setTimeout(function () {
-        console.log("Inside setTimeout");
+     console.log("Inside setTimeout");
    }, 2000); // Wait for 2 seconds
    console.log("End");
    ```
 
 3. **File I/O:** Reading and writing files asynchronously is essential for efficient file operations.
 
-   ```JavaScript
-    const fs = require("fs");
-    fs.readFile("example.txt", "utf8", (error, data) => {
-        if (error) {
-            console.error("Error:", error);
-        return;
-        }
-        console.log("File contents:", data);
-    });
+   ```javascript
+   const fs = require("fs");
+   fs.readFile("example.txt", "utf8", (error, data) => {
+     if (error) {
+       console.error("Error:", error);
+       return;
+     }
+     console.log("File contents:", data);
+   });
    ```
 
 4. **Event Handling:** User interactions and events in web applications often require asynchronous code to respond to actions like button clicks or mouse movements.
 
-   ```JavaScript
+   ```javascript
    // HTML: <button id="myButton">Click Me</button>
 
    document.getElementById("myButton").addEventListener("click", function () {
-       console.log("Button Clicked!");
+     console.log("Button Clicked!");
    });
    ```
 

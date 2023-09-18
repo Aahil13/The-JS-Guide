@@ -12,24 +12,24 @@ You can create an array in JavaScript using square brackets `[]` and separate it
 
 **Syntax:**
 
-```JavaScript
+```javascript
 let fruits = ["apple", "banana", "orange"];
 ```
 
 To access the elements in an array:
 
-```JavaScript
-let firstFruit = fruits[0];  // "apple"
+```javascript
+let firstFruit = fruits[0]; // "apple"
 let secondFruit = fruits[1]; // "banana"
-let thirdFruit = fruits[2];  // "orange"
+let thirdFruit = fruits[2]; // "orange"
 ```
 
 !> Elements in an array are accessed by their index, starting from 0.
 
 You can modify array elements by assigning new values to specific indexes. To modify the elements in an array:
 
-```JavaScript
-fruits[1] = 'grape';
+```javascript
+fruits[1] = "grape";
 console.log(fruits); // Output: ['apple', 'grape', 'orange']
 ```
 
@@ -54,24 +54,24 @@ An object is an unordered collection of key-value pairs. The keys (also called p
 
 You can create an object using curly braces `{}` and define its properties using key-value pairs.
 
-```JavaScript
+```javascript
 let person = {
-    name: "John",
-    age: 30,
-    isStudent: false
-}
+  name: "John",
+  age: 30,
+  isStudent: false,
+};
 ```
 
 You can access properties in an object using the dot or square bracket notation.
 
-```JavaScript
+```javascript
 let personName = person.name; // "John"
-let personAge = person['age']; // 30
+let personAge = person["age"]; // 30
 ```
 
 Objects also support property modification or addition of new properties. You can add new properties or modify the key of any key-value pair in an object using the following syntax:
 
-```JavaScript
+```javascript
 person.job = "Engineer"; // Adds a new property
 person.age = 31; // Modifies an existing property
 ```
@@ -80,12 +80,12 @@ person.age = 31; // Modifies an existing property
 
 A function declared in an object is called a method. These methods can carry out various task related to the object.
 
-```JavaScript
+```javascript
 let car = {
-    brand: "Toyota",
-    start: function() {
-        console.log("Engine started.");
-    }
+  brand: "Toyota",
+  start: function () {
+    console.log("Engine started.");
+  },
 };
 car.start(); // "Engine started."
 ```

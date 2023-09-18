@@ -6,43 +6,43 @@ Operators are special characters that are used to perform various operations (us
 
 1. **Arithmetic Operators:** Arithmetic operators perform mathematical operations like addition, subtraction, multiplication, division, and more.
 
-    ```javascript
-    let x = 10;
-    let y = 5;
-    let sum = x + y; // Addition
-    let difference = x - y; // Subtraction
-    let product = x * y; // Multiplication
-    let quotient = x / y; // Division
-    let remainder = x % y; // Modulus (remainder)
-    ```
+   ```javascript
+   let x = 10;
+   let y = 5;
+   let sum = x + y; // Addition
+   let difference = x - y; // Subtraction
+   let product = x * y; // Multiplication
+   let quotient = x / y; // Division
+   let remainder = x % y; // Modulus (remainder)
+   ```
 
 2. **Comparison Operators:** Comparison operators compare two values and return a Boolean (true or false) result.
 
-    ```javascript
-    let a = 10;
-    let b = 5;
-    let isEqual = (a === b); // Equality
-    let isNotEqual = (a !== b); // Inequality
-    let isGreaterThan = (a > b); // Greater than
-    let isLessThan = (a < b); // Less than
-    ```
+   ```javascript
+   let a = 10;
+   let b = 5;
+   let isEqual = a === b; // Equality
+   let isNotEqual = a !== b; // Inequality
+   let isGreaterThan = a > b; // Greater than
+   let isLessThan = a < b; // Less than
+   ```
 
 3. **Logical Operators:** Logical operators are used to combine or manipulate Boolean values.
 
-    ```javascript
-    let isTrue = true;
-    let isFalse = false;
-    let andResult = isTrue && isFalse; // Logical AND
-    let orResult = isTrue || isFalse; // Logical OR
-    let notResult = !isTrue; // Logical NOT
-    ```
+   ```javascript
+   let isTrue = true;
+   let isFalse = false;
+   let andResult = isTrue && isFalse; // Logical AND
+   let orResult = isTrue || isFalse; // Logical OR
+   let notResult = !isTrue; // Logical NOT
+   ```
 
 4. **Assignment Operators:** Assignment operators are used to assign values to variables.
 
-    ```javascript
-    let x = 10;
-    x += 5; // Equivalent to x = x + 5
-    ```
+   ```javascript
+   let x = 10;
+   x += 5; // Equivalent to x = x + 5
+   ```
 
 5. **Increment and Decrement Operators:** These operators increase or decrease the value of a variable by 1.
 
@@ -56,7 +56,7 @@ Operators are special characters that are used to perform various operations (us
 
    ```javascript
    let age = 18;
-   let canVote = (age >= 18) ? "Yes" : "No";
+   let canVote = age >= 18 ? "Yes" : "No";
    ```
 
 7. **String Concatenation Operator:** The `+` operator can also be used to concatenate (join) strings together.

@@ -2,6 +2,7 @@
 
 - [Introduction to JavaScript](/)
 - [Getting Started](getting-started.md)
+- [Debugging](Debugging.md)
 - Basic JavaScript Syntax
   - [Variables](vars.md)
   - [Functions](Functions.md)
@@ -13,5 +14,4 @@
 - [Asynchronous JS](Asynchronous-JS.md)
 - [Error Handling](Error-handling.md)
 - [ES6+](ES6+.md)
-- [Debugging](Debugging.md)
 - [Further Learning](Further-learning.md)

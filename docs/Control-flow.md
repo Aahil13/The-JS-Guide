@@ -14,15 +14,15 @@ JavaScript provides few statements that help you control the flow of program exe
 
      **Syntax**:
 
-   ```JavaScript
+   ```javascript
    let age = 18;
 
    if (age < 18) {
-       console.log("You are a minor.");
+     console.log("You are a minor.");
    } else if (age >= 18 && age < 65) {
-       console.log("You are an adult.");
+     console.log("You are an adult.");
    } else {
-       console.log("You are a senior citizen.");
+     console.log("You are a senior citizen.");
    }
    ```
 
@@ -32,9 +32,9 @@ JavaScript provides few statements that help you control the flow of program exe
 
      **Syntax:**
 
-   ```JavaScript
+   ```javascript
    for (let i = 0; i < 5; i++) {
-       console.log("Iteration " + i);
+     console.log("Iteration " + i);
    }
    ```
 
@@ -42,11 +42,11 @@ JavaScript provides few statements that help you control the flow of program exe
 
      **Syntax:**
 
-   ```JavaScript
+   ```javascript
    let count = 0;
    while (count < 5) {
-       console.log("Count is " + count);
-       count++;
+     console.log("Count is " + count);
+     count++;
    }
    ```
 
@@ -54,11 +54,11 @@ JavaScript provides few statements that help you control the flow of program exe
 
      **Syntax:**
 
-   ```JavaScript
+   ```javascript
    let x = 1;
    do {
-       console.log("x is " + x);
-       x++;
+     console.log("x is " + x);
+     x++;
    } while (x <= 3);
    ```
 
@@ -66,15 +66,15 @@ JavaScript provides few statements that help you control the flow of program exe
 
    **Syntax:**
 
-   ```JavaScript
+   ```javascript
    for (let i = 0; i < 5; i++) {
-       if (i === 3) {
-           continue; // Skip iteration when i is 3
-       }
-       console.log("Iteration " + i);
-       if (i === 4) {
-           break; // Exit the loop when i is 4
-       }
+     if (i === 3) {
+       continue; // Skip iteration when i is 3
+     }
+     console.log("Iteration " + i);
+     if (i === 4) {
+       break; // Exit the loop when i is 4
+     }
    }
    ```
 
@@ -82,18 +82,18 @@ JavaScript provides few statements that help you control the flow of program exe
 
    **Syntax:**
 
-   ```JavaScript
+   ```javascript
    var day = "Monday";
 
    switch (day) {
-       case "Monday":
-           console.log("It's the start of the workweek.");
-           break;
-       case "Friday":
-           console.log("It's almost the weekend!");
-           break;
-       default:
-           console.log("It's a regular day.");
+     case "Monday":
+       console.log("It's the start of the workweek.");
+       break;
+     case "Friday":
+       console.log("It's almost the weekend!");
+       break;
+     default:
+       console.log("It's a regular day.");
    }
    ```
 
