@@ -6,35 +6,35 @@ Document Object Model (DOM) refers to the representation of HTML elements of a w
 
 <div style="text-align: center"><img src="_images/DOM.jpg" alt="image"/></div>
 
-**Figure** - Document Object Model.
+**Figure** - Document Object Model By Dominic V. Smith.
 
 With DOM manipulation, you can select and manipulate any element on the website using various methods. The following methods can be used to select elements on a webpage:
 
-1. `getElementById():` This allows you to select an element by its unique `id` attribute.
+1. **`getElementById():`** This allows you to select an element by its unique `id` attribute.
 
    ```javascript
    var element = document.getElementById("myElementId");
    ```
 
-2. `getElementsByClassName():` This selects elements by their class name.
+2. **`getElementsByClassName():`** This selects elements by their class name.
 
    ```javascript
    var elements = document.getElementsByClassName("myClassName");
    ```
 
-3. `getElementsByTagName():` You can select elements by their tag name.
+3. **`getElementsByTagName():`** You can select elements by their tag name.
 
    ```javascript
    var elements = document.getElementsByTagName("div");
    ```
 
-4. `querySelector():` Select the first element that matches a CSS selector.
+4. **`querySelector():`** Select the first element that matches a CSS selector.
 
    ```javascript
    var element = document.querySelector("#myElementId");
    ```
 
-5. `querySelectorAll():` Select all elements that match a CSS selector.
+5. **`querySelectorAll():`** Select all elements that match a CSS selector.
 
    ```javascript
    var elements = document.querySelectorAll(".myClassName");
@@ -69,13 +69,13 @@ After selecting any element, you would want to modify it. The following includes
 
 Aside from modification, you can also add or append elements. To create and append elements, do the following:
 
-1. `createElement():` Create a new HTML element.
+1. **`createElement():`** Create a new HTML element.
 
    ```javascript
    var newElement = document.createElement("div");
    ```
 
-2. `appendChild():` Add an element as a child of another element.
+2. **`appendChild():`** Add an element as a child of another element.
 
    ```javascript
    parentElement.appendChild(newElement);
@@ -83,7 +83,7 @@ Aside from modification, you can also add or append elements. To create and appe
 
 You can also remove elements from a webpage using the following lines of code:
 
-1. `removeChild():` Remove a child element from its parent.
+1. **`removeChild():`** Remove a child element from its parent.
 
    ```javascript
    parentElement.removeChild(childElement);
