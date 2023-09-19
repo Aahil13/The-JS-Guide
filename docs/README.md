@@ -36,11 +36,7 @@ In this documentation, we'll cover JavaScript from the basics to advanced concep
 
 7. **Error Handling:** Learn to identify, handle, and prevent common errors that occur in your code.
 
-8. **Advanced Topics:** Dive deeper into advanced JavaScript topics like closures, prototypes, and modules.
-
-9. **Debugging Techniques:** Sharpen your debugging skills to find and fix issues in your code effectively.
-
-10. **Building Real Projects:** Apply your knowledge by building practical projects that showcase your JavaScript skills.
+8. **Debugging Techniques:** Sharpen your debugging skills to find and fix issues in your code effectively.
 
 Are you ready to explore the world of JavaScript and unlock its endless possibilities? Let's begin this exciting journey, one line of code at a time. Whether you're here for fun, career advancement, or a mix of both, JavaScript has something incredible in store for you. Get ready to create, innovate, and shape the future of the web!
 

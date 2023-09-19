@@ -2,15 +2,15 @@
 
 > Variables - your script's dynamic building blocks.
 
-In programming, a variable is a container for storing data types. With a variable, you can have any value(integer, boolean, string) stored with any name of your choice, which you can change at any time in the future, such that whenever you need to alter the variable, all you have to do is change the initial value and not the variable name.
+In programming, a variable is a container for storing data types. With a variable, you can have any value (integer, boolean, string) stored with any name of your choice, which you can change at any time in the future, such that whenever you need to alter the variable, all you have to do is change the initial value and not the variable name.
 
 You can visualize a variable as an empty box storing any data type you choose. You can call this box anything you want, such that any time the data type is needed, all you have to do is call the box's name.
 
 ## Variable declarations
 
-In JavaScript, creating a variable is called a variable declaration, and there are three (3) ways to declare variables: using the `var`, `let` and `const` keywords.
+In JavaScript, creating a variable is called a variable declaration, and there are three (3) ways to declare variables: using the `var`, `let`, and `const` keywords.
 
-- `var`: Variables declared using the `var` keyword can be redeclared and reassigned. Depending on where they are declared, they can also be function or block scoped.
+- `var`: Variables declared using the `var` keyword can be redeclared and reassigned. They can also be function or block scoped, depending on where they are declared.
 - `let`: Variables declared with `let` can only be accessible within the block they were declared; hence, they are block scoped. They can be reassigned but not redeclared within that same block.
 - `const`: Variables declared with `const` are also block scoped but cannot be reassigned once they are assigned a value. However, the properties or elements can still be modified for objects and arrays.
 

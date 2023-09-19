@@ -2,9 +2,9 @@
 
 > Control flow - navigating the code rapids.
 
-Control flow refers to the order in which code is statements are executed in your code. It determines how the program flows from one statement to another based on certain conditions and control flow statements. It allows you to make decisions, create loops for repetitive tasks, and control the logical flow of your program.
+Control flow refers to the order in which code statements are executed in your code. It determines how the program flows from one statement to another based on certain conditions and control flow statements. It allows you to make decisions, create loops for repetitive tasks, and control the logical flow of your program.
 
-JavaScript provides few statements that help you control the flow of program execution including:
+JavaScript provides a few statements that help you control the flow of program execution, including:
 
 1. Conditional statements: These statements allow you to execute different chunks of code based on specified conditions. The following are examples of conditional statements:
 
@@ -26,9 +26,9 @@ JavaScript provides few statements that help you control the flow of program exe
    }
    ```
 
-2. Loops: As the name implies, with a loop, you can execute a block of code repeatedly as long as the condition remains **true**. In JavaScript, there are three (3) types of loops as follows:
+2. Loops: As the name implies, a loop can help you execute a code block repeatedly if the condition remains **true**. In JavaScript, there are three (3) types of loops as follows:
 
-   - `for` loop: The `for` loop repeats a block of code according to a specified number.
+   - `for` loop: The `for` loop repeats a code block according to a specified number.
 
      **Syntax:**
 
@@ -38,7 +38,7 @@ JavaScript provides few statements that help you control the flow of program exe
    }
    ```
 
-   - `while` loop: This repeatedly executes a block of code as long as the condition remains **true**.
+   - `while` loop: This repeatedly executes a code block if the condition remains **true**.
 
      **Syntax:**
 
@@ -50,7 +50,7 @@ JavaScript provides few statements that help you control the flow of program exe
    }
    ```
 
-   - `do...while` loop: With the `do...while` loop, you can guarantee that your block of code will be executed as **least once**, and only repeat it's execution if the condition remains **true**.
+   - `do...while` loop: With the `do...while` loop, you can guarantee that your code block will be executed at **least once** and only repeat its execution if the condition remains **true**.
 
      **Syntax:**
 
@@ -62,7 +62,7 @@ JavaScript provides few statements that help you control the flow of program exe
    } while (x <= 3);
    ```
 
-3. Break and continue statements: The `break` statement terminates or **breaks** the current loop while the `continue` statement skips the current iteration of loop, and **continues** to the next one.
+3. Break and continue statements: The `break` statement terminates or **breaks** the current loop, while the `continue` statement will skip the current iteration of the loop and **continues** to the next one.
 
    **Syntax:**
 
@@ -73,7 +73,7 @@ JavaScript provides few statements that help you control the flow of program exe
      }
      console.log("Iteration " + i);
      if (i === 4) {
-       break; // Exit the loop when i is 4
+       break; // Exit loop when i is 4
      }
    }
    ```
@@ -98,3 +98,11 @@ JavaScript provides few statements that help you control the flow of program exe
    ```
 
 Control flow statements are essential for making your JavaScript programs dynamic and responsive to different conditions and data. They allow you to create logic that can handle various scenarios and make your code more powerful and flexible.
+
+### Further study
+
+1. [MDN Web Docs - Control flow and error handling](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Control_flow_and_error_handling).
+2. [JavaScript if...else statement](https://www.w3schools.com/js/js_if_else.asp).
+3. [JavaScript switch Statement](https://www.w3schools.com/js/js_switch.asp).
+4. [JavaScript for Loop](https://www.w3schools.com/js/js_loop_for.asp).
+5. [JavaScript while Loop](https://www.w3schools.com/js/js_loop_while.asp).

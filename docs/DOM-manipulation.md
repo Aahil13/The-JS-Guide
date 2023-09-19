@@ -2,13 +2,13 @@
 
 > DOM manipulation - sculpting web pages with JavaScript.
 
-Document Object Model (DOM) refers to the representation of HTML elements of a web page as objects in a manner where you can easily interact and manipulate them dynamically using JavaScript. Through the DOM, you can change the structure, content, or style of a web page on the fly using JavaScript.
+Document Object Model (DOM) refers to the representation of HTML elements of a web page as objects in a manner where you can easily interact and manipulate them dynamically using JavaScript. Through the DOM, you can use JavaScript to change the structure, content, or style of a web page on the fly.
 
 Figure - Document Object Model.
 
-With DOM manipulation, you can select any element on the website and manipulate it in using various methods. The following methods can be used to select elements on a webpage:
+With DOM manipulation, you can select and manipulate any element on the website using various methods. The following methods can be used to select elements on a webpage:
 
-1. `getElementById():` This allows you select an element by its unique `id` attribute.
+1. `getElementById():` This allows you to select an element by its unique `id` attribute.
 
    ```javascript
    var element = document.getElementById("myElementId");
@@ -20,7 +20,7 @@ With DOM manipulation, you can select any element on the website and manipulate 
    var elements = document.getElementsByClassName("myClassName");
    ```
 
-3. `getElementsByTagName():` Allows you select elements by their tag name.
+3. `getElementsByTagName():` You can select elements by their tag name.
 
    ```javascript
    var elements = document.getElementsByTagName("div");
@@ -38,7 +38,7 @@ With DOM manipulation, you can select any element on the website and manipulate 
    var elements = document.querySelectorAll(".myClassName");
    ```
 
-After selecting any element, you would want to modify it. The following include various ways you can modify elements using JavaScript:
+After selecting any element, you would want to modify it. The following includes various ways you can modify elements using JavaScript:
 
 1. **Changing Text Content:**
 
@@ -65,7 +65,7 @@ After selecting any element, you would want to modify it. The following include 
    element.classList.remove("oldClass");
    ```
 
-Asides modification, you can also add or append elements. To create and append elements, do the following:
+Aside from modification, you can also add or append elements. To create and append elements, do the following:
 
 1. `createElement():` Create a new HTML element.
 
@@ -92,3 +92,8 @@ On Chrome, you can see the DOM structure of any website by inspecting it. You ca
 !> For a more streamlined interface for inspecting and understanding the structure of a web page, you can use the [DOM tree viewer Chrome extension](https://chrome.google.com/webstore/detail/dom-node-tree-viewer/jbplakkefflidgnjhckoahendgekokfc).
 
 DOM manipulation in JavaScript allows you to interact with and change the content and structure of a web page. You can select elements, modify their properties and attributes, create new elements, attach event listeners for interactivity, and remove elements as needed. This capability is essential for building dynamic and interactive web applications.
+
+## Resources
+
+- [Document Object Model (DOM)](https://developer.mozilla.org/en-US/docs/Web/API/Document_Object_Model/Introduction).
+- [DOM manipulation](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Client-side_web_APIs/Manipulating_documents).

@@ -2,7 +2,7 @@
 
 > Functions - your code's trusted sidekicks.
 
-Functions are chunks of code that carry out a particular job or as the name implies **, "function"**. They are reusable code blocks that carry out a specific task. They can take inputs (parameters), process them, and produce outputs (return values).
+Functions are chunks of code that carry out a particular job or, as the name implies **, "function"**. They are reusable code blocks that carry out a specific task. They can take inputs (parameters), process them, and produce outputs (return values).
 
 In JavaScript, the default syntax for declaring a function is as follows:
 
@@ -20,7 +20,7 @@ Here's a breakdown of the components:
 
 - `functionName`: Replace this with the name you want to give to your function. Function names should follow the rules for variable names in JavaScript. By convention, function names use camelCase (e.g., `calculateSum`, `getUserData`).
 
-- `(parameters)`: You can list any parameters (inputs) that your function requires. Parameters are variables that allow you to pass values into the function when you call it. You can leave this part empty if your function doesn't need any parameters.
+- `(parameters)`: You can list any parameters (inputs) your function requires. Parameters are variables that allow you to pass values into the function when you call it. You can leave this part empty if your function doesn't need any parameters.
 
 - `{}`: The curly braces define the function body. Inside the curly braces, you write the code the function will execute when called.
 
@@ -41,7 +41,7 @@ JavaScript provides several ways to express functions, including arrow functions
 **1. Arrow Functions:**
 Arrow functions are a condensed way to write functions in JavaScript. They have a shorter syntax than regular functions and do not bind their own `this` value. Arrow functions are often used for callback functions or when a more concise syntax is desired.
 
-Syntax:
+**Syntax:**
 
 ```javascript
 const functionName = (parameters) => {
@@ -49,7 +49,7 @@ const functionName = (parameters) => {
 };
 ```
 
-Example:
+**Example:**
 
 ```javascript
 const add = (a, b) => {
@@ -60,7 +60,7 @@ const add = (a, b) => {
 **2. Function Expressions:**
 Function expressions involve assigning a function to a variable. They are useful when you want to create a function on the fly or pass it as an argument to another function. Function expressions can be named or anonymous.
 
-Syntax:
+**Syntax:**
 
 ```javascript
 const functionName = function (parameters) {
@@ -68,7 +68,7 @@ const functionName = function (parameters) {
 };
 ```
 
-Example:
+**Example:**
 
 ```javascript
 const multiply = function (a, b) {
@@ -79,7 +79,7 @@ const multiply = function (a, b) {
 **3. Function Declarations:**
 Function declarations define named functions that can be called anywhere in the code. They are hoisted to the top of their scope, which means they can be called before they are defined in the code.
 
-Syntax:
+**Syntax:**
 
 ```javascript
 function functionName(parameters) {
@@ -87,7 +87,7 @@ function functionName(parameters) {
 }
 ```
 
-Example:
+**Example:**
 
 ```javascript
 function divide(a, b) {
