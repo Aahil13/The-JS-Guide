@@ -4,11 +4,11 @@
 
 Asynchronous JavaScript is a concept or programming paradigm that allows you to execute multiple tasks concurrently without blocking the main execution thread. With asynchronous JS, you can handle time-consuming operations like network requests, file I/O, and user interactions in web applications.
 
-There are key points to know in asynchronous JavaScript which include the following:
+There are vital points to know in asynchronous JavaScript, which include the following:
 
 1. **Callbacks:**
 
-   - Callbacks are functions passed as arguments to other functions.
+   - The callback function is passed to other functions as an argument.
    - They are executed once a specific task or operation is completed.
    - Callbacks are commonly used in asynchronous programming to handle results or errors.
 
@@ -29,7 +29,7 @@ There are key points to know in asynchronous JavaScript which include the follow
 2. **Promises:**
 
    - Promises are a more structured way to work with asynchronous code.
-   - They represent a value that may be available now, or in the future, or never.
+   - They represent a value that may be available now, in the future, or never.
    - Promises have three states: pending, resolved (fulfilled), or rejected.
 
    ```javascript
@@ -77,7 +77,7 @@ There are key points to know in asynchronous JavaScript which include the follow
 
 ## Common Use Cases
 
-1. **HTTP Requests:** Asynchronous programming is commonly used to fetch data from web servers using APIs.
+1. **HTTP Requests:** Asynchronous programming commonly fetches data from web servers using APIs.
 
    ```javascript
    // Using the Fetch API
@@ -124,4 +124,12 @@ There are key points to know in asynchronous JavaScript which include the follow
    });
    ```
 
-Asynchronous JavaScript allows you to perform non-blocking operations, improving the responsiveness and performance of web applications. Understanding callbacks, promises, and async/await is crucial for handling asynchronous tasks effectively in your code.
+Using JavaScript asynchronously allows you to perform non-blocking requests, allowing your website to be more responsive and perform better. Understanding callbacks, promises, and async/await is crucial for handling asynchronous tasks effectively in your code.
+
+## Further study
+
+Here are some links for further study on the concept of asynchronous JavaScript:
+
+- [Asynchronous JavaScript](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Asynchronous).
+- [JavaScript Promises](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise).
+- [Async/Await](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Asynchronous/Async_await).

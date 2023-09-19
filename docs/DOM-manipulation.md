@@ -93,7 +93,9 @@ On Chrome, you can see the DOM structure of any website by inspecting it. You ca
 
 DOM manipulation in JavaScript allows you to interact with and change the content and structure of a web page. You can select elements, modify their properties and attributes, create new elements, attach event listeners for interactivity, and remove elements as needed. This capability is essential for building dynamic and interactive web applications.
 
-## Resources
+## Further Study
+
+Here are some links for further study on the concept of DOM manipulation in JavaScript:
 
 - [Document Object Model (DOM)](https://developer.mozilla.org/en-US/docs/Web/API/Document_Object_Model/Introduction).
 - [DOM manipulation](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Client-side_web_APIs/Manipulating_documents).

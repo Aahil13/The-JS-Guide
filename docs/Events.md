@@ -2,7 +2,7 @@
 
 > Events - jazz up your page with interactive rhythms.
 
-Events are interactions or occurrences that happen in the browser, such as a user clicking a button, moving the mouse, or a webpage finishing loading. JavaScript allows you to listen to and respond to these events with specific actions.
+In a browser, events occur when something happens, such as a user clicking a button, moving the mouse, or loading a webpage. JavaScript allows you to listen to and respond to these events with specific actions.
 
 ## Event Types
 
@@ -29,7 +29,7 @@ Events are interactions or occurrences that happen in the browser, such as a use
 
 ## Event Listeners
 
-To respond to events, you can attach event listeners to HTML elements. An event listener is a function that "listens" for a specific event on an element and performs an action when that event occurs.
+To respond to events, you can attach event listeners to HTML elements. Events listeners are functions that perform actions when a specific event occurs on an element.
 
 ```javascript
 var button = document.getElementById("myButton");
@@ -40,7 +40,7 @@ button.addEventListener("click", function () {
 
 ## Event Handling
 
-1. **Event Object:** An event object is created when an event occurs. This object contains information about the event, such as the type of event and the element it occurred on.
+1. **Event Object:** An event object is created when an event occurs. An event object contains information about the event, such as its type and its element.
 
    ```javascript
    button.addEventListener("click", function (event) {
@@ -59,10 +59,18 @@ button.addEventListener("click", function () {
 
 ## Event Delegation
 
-Event delegation is a technique where you attach a single event listener to a common ancestor of multiple elements instead of attaching listeners to each element. This is useful for efficiently handling events for dynamically added or removed elements from the page.
+The event delegation technique involves attaching a single event listener to the common ancestor of multiple elements, rather than attaching listeners to each element individually. This is useful for efficiently handling events for dynamically added or removed elements from the page.
 
 ## Event Propagation
 
 Events in JavaScript follow a process called event propagation or event bubbling. An event on an element triggers the event handlers attached to that element and then propagates to its parent elements. You can control event propagation using methods like `stopPropagation()` or `preventDefault()`.
 
 Events are an essential part of interactive web development. They allow you to respond to user actions and create dynamic, responsive web applications. Understanding event types, listeners, and handling is fundamental for JavaScript programming.
+
+## Further Study
+
+Here are some links for further study on the concept of events in JavaScript:
+
+- [Event Reference](https://developer.mozilla.org/en-US/docs/Web/Events)
+- [Event Delegation](https://javascript.info/event-delegation)
+- [Event Propagation](https://javascript.info/bubbling-and-capturing)
