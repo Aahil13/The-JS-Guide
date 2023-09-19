@@ -15,13 +15,13 @@ Effective debugging is a crucial skill for any developer. Here's a simple guide 
    console.log("The value of x is:", x);
    ```
 
-2. **Reading Error Messages:** When an error occurs, the browser or runtime environment often provides an error message in the console. Reading and understanding error messages is essential for pinpointing the cause of issues in your code.
+2. **Reading error messages:** When an error occurs, the browser or runtime environment often provides an error message in the console. Reading and understanding error messages is essential for pinpointing the cause of issues in your code.
 
-3. **Browser Developer Tools:** Modern browsers like Chrome, Firefox, and Edge offer robust developer tools with debugging features. You can inspect the DOM, set breakpoints, monitor network requests, and analyze performance.
+3. **Browser developer tools:** Modern browsers like Chrome, Firefox, and Edge offer robust developer tools with debugging features. You can inspect the DOM, set breakpoints, monitor network requests, and analyze performance.
 
-4. **Third-Party Debugging Tools:** There are also third-party tools and extensions available for debugging JavaScript code, such as VS Code's debugging extensions and browser extensions like React DevTools.
+4. **Third-party debugging tools:** There are also third-party tools and extensions available for debugging JavaScript code, such as VS Code's debugging extensions and browser extensions like [React DevTools](https://react.dev/learn/react-developer-tools).
 
-5. **Using the `debugger` Statement:** The `debugger` statement is a powerful tool for pausing code execution and entering a debugging mode when the developer tools are open. It's like setting a breakpoint at that specific line of code.
+5. **Using the `debugger` statement:** The `debugger` statement is a powerful tool for pausing code execution and entering a debugging mode when the developer tools are open. It's like setting a breakpoint at that specific line of code.
 
    ```javascript
    function processUserData(user) {

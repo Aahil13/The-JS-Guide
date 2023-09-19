@@ -38,7 +38,7 @@ In this example, `sayHello` is the function name, which takes a `name` parameter
 
 JavaScript provides several ways to express functions, including arrow functions, function expressions, and function declarations. Each of these methods has its own syntax and use cases. Let's explore each of them:
 
-**1. Arrow Functions:**
+**1. Arrow functions:**
 Arrow functions are a condensed way to write functions in JavaScript. They have a shorter syntax than regular functions and do not bind their own `this` value. Arrow functions are often used for callback functions or when a more concise syntax is desired.
 
 **Syntax:**
@@ -55,9 +55,12 @@ const functionName = (parameters) => {
 const add = (a, b) => {
   return a + b;
 };
+
+// If the function body consists of a single statement, you can omit the curly braces and the 'return' keyword.
+const add = (a, b) => a + b;
 ```
 
-**2. Function Expressions:**
+**2. Function expressions:**
 Function expressions involve assigning a function to a variable. They are useful when you want to create a function on the fly or pass it as an argument to another function. Function expressions can be named or anonymous.
 
 **Syntax:**
@@ -76,7 +79,7 @@ const multiply = function (a, b) {
 };
 ```
 
-**3. Function Declarations:**
+**3. Function declarations:**
 Function declarations define named functions that can be called anywhere in the code. They are hoisted to the top of their scope, which means they can be called before they are defined in the code.
 
 **Syntax:**

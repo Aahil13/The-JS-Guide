@@ -75,9 +75,9 @@ There are vital points to know in asynchronous JavaScript, which include the fol
    console.log(result); // Process the fetched data
    ```
 
-## Common Use Cases
+## Common use cases
 
-1. **HTTP Requests:** Asynchronous programming commonly fetches data from web servers using APIs.
+1. **HTTP requests:** Asynchronous programming commonly fetches data from web servers using APIs.
 
    ```javascript
    // Using the Fetch API
@@ -91,7 +91,7 @@ There are vital points to know in asynchronous JavaScript, which include the fol
      });
    ```
 
-2. **Timers and Delays:** You can use timers to execute functions after a specified delay.
+2. **Timers and delays:** You can use timers to execute functions after a specified delay.
 
    ```javascript
    console.log("Start");
@@ -114,7 +114,7 @@ There are vital points to know in asynchronous JavaScript, which include the fol
    });
    ```
 
-4. **Event Handling:** User interactions and events in web applications often require asynchronous code to respond to actions like button clicks or mouse movements.
+4. **Event handling:** User interactions and events in web applications often require asynchronous code to respond to actions like button clicks or mouse movements.
 
    ```javascript
    // HTML: <button id="myButton">Click Me</button>
@@ -131,5 +131,5 @@ Using JavaScript asynchronously allows you to perform non-blocking requests, all
 Here are some links for further study on the concept of asynchronous JavaScript:
 
 - [Asynchronous JavaScript](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Asynchronous).
-- [JavaScript Promises](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise).
+- [JavaScript promises](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise).
 - [Async/Await](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Asynchronous/Async_await).

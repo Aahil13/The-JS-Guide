@@ -10,7 +10,7 @@ An array is an indexed collection of data or values. Each value in an array is c
 
 In JavaScript, an array is created using square brackets `[]` and separating its elements with commas.
 
-**Syntax:**
+**Example:**
 
 ```javascript
 let fruits = ["apple", "banana", "orange"];
@@ -37,14 +37,14 @@ console.log(fruits); // Output: ['apple', 'grape', 'orange']
 
 Arrays in JavaScript come with built-in methods which you can use to manipulate its elements. Some commonly used methods include:
 
-- `push()`:  By using `push()` you can add elements to the end of an array.
+- `push()`: By using `push()` you can add elements to the end of an array.
 - `pop()`: Using the `pop()` method, remove the last element of an array.
 - `shift()`: Removes the first element.
 - `unshift()`: `unshift()` adds elements to the beginning of an array.
 - `slice()`: This returns a new array containing a portion of its original.
 - `splice()`: `slice()`changes the contents of an array by removing, replacing, or adding elements.
 - `concat()`: You can use `concat()` to combine multiple arrays together.
-- `join()`:  Utilizing the `join()` method, you can join an array's elements to a string.
+- `join()`: Utilizing the `join()` method, you can join an array's elements to a string.
 - `indexOf()`: You can return the first index at which a given element can be found in an array.
 - `includes()`: Checks if an array contains a specific element and returns a boolean value.
 

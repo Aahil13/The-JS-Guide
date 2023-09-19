@@ -58,7 +58,7 @@ You can start using JavaScript on the browser by including a JavaScript file wit
 
 !> Remember to adjust file paths as needed when using external JavaScript files. This separation of concerns (HTML in the HTML file, JavaScript in separate `.js` files) is considered best practice for maintainability and readability.
 
-## Basic Structure of a JavaScript Program
+## Basic structure of a JavaScript program
 
 A JavaScript program is a set of instructions that tells the browser to perform specific tasks. It's important to understand the basic structure of a JavaScript program. Here's a breakdown of the basic structure:
 
@@ -105,7 +105,7 @@ for (let i = 1; i <= 5; i++) {
 }
 ```
 
-## Common Tools and Development Environments
+## Common tools and development environments
 
 You'll need a code editor and a web browser to write JavaScript code. The following are popular options for these tools:
 

@@ -4,7 +4,9 @@
 
 Document Object Model (DOM) refers to the representation of HTML elements of a web page as objects in a manner where you can easily interact and manipulate them dynamically using JavaScript. Through the DOM, you can use JavaScript to change the structure, content, or style of a web page on the fly.
 
-Figure - Document Object Model.
+<div style="text-align: center"><img src="_images/DOM.jpg" alt="image"/></div>
+
+**Figure** - Document Object Model.
 
 With DOM manipulation, you can select and manipulate any element on the website using various methods. The following methods can be used to select elements on a webpage:
 
@@ -40,25 +42,25 @@ With DOM manipulation, you can select and manipulate any element on the website 
 
 After selecting any element, you would want to modify it. The following includes various ways you can modify elements using JavaScript:
 
-1. **Changing Text Content:**
+1. **Changing text content:**
 
    ```javascript
    element.textContent = "New Text";
    ```
 
-2. **Changing HTML Content:**
+2. **Changing HTML content:**
 
    ```javascript
    element.innerHTML = "<p>New HTML content</p>";
    ```
 
-3. **Changing Attributes:**
+3. **Changing attributes:**
 
    ```javascript
    element.setAttribute("src", "new-image.jpg");
    ```
 
-4. **Adding and Removing Classes:**
+4. **Adding and removing classes:**
 
    ```javascript
    element.classList.add("newClass");
@@ -93,7 +95,7 @@ On Chrome, you can see the DOM structure of any website by inspecting it. You ca
 
 DOM manipulation in JavaScript allows you to interact with and change the content and structure of a web page. You can select elements, modify their properties and attributes, create new elements, attach event listeners for interactivity, and remove elements as needed. This capability is essential for building dynamic and interactive web applications.
 
-## Further Study
+## Further study
 
 Here are some links for further study on the concept of DOM manipulation in JavaScript:
 

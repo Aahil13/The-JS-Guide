@@ -4,7 +4,7 @@
 
 JavaScript has become more powerful and expressive thanks to ECMAScript 6 (ES6), also known as ECMAScript 2015. These modern JavaScript concepts have become standard in web development and are widely adopted. Here are some key ES6+ concepts:
 
-**1. let and const:**
+**1. `let` and `const`:**
 
 - `let` allows you to declare block-scoped variables, which means they are limited in scope to the block or statement in which they are defined.
 - `const` is used to declare constants, which cannot be reassigned once they are given a value.
@@ -47,7 +47,7 @@ const arr = [1, 2, 3];
 const newArr = [...arr, 4, 5];
 ```
 
-**6. Classes:** ES6 introduced class syntax for defining objects and their behavior, providing a more structured and familiar way of implementing object-oriented programming. Classes can have constructors and methods.
+**6. Classes:** ES6 introduced `class` syntax for defining objects and their behavior, providing a more structured and familiar way of implementing object-oriented programming. Classes can have constructors and methods.
 
 ```javascript
 class Person {
@@ -83,6 +83,9 @@ const fetchData = () => {
 export const myFunction = () => {
   // Function code
 };
+
+// In a seperate file
+import { myFunction } from "./myModule.js";
 ```
 
 **9. Default Parameters:** Default parameter values allow you to specify default values for function parameters. The default value is used if a value is not provided when the function is called.
@@ -109,6 +112,6 @@ These ES6+ concepts make JavaScript more powerful, expressive, and developer-fri
 
 Here are some resources to learn more about ES6+:
 
-- [ES6 Tutorial](https://www.javascripttutorial.net/es6/)
-- [ES6 Features](https://www.javascripttutorial.net/es6/es6-features/)
-- [ES6 In Depth](https://hacks.mozilla.org/category/es6-in-depth/)
+- [ES6 tutorial](https://www.javascripttutorial.net/es6/)
+- [ES6 features](https://www.javascripttutorial.net/es6/es6-features/)
+- [ES6 in depth](https://hacks.mozilla.org/category/es6-in-depth/)
